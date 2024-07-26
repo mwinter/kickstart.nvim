@@ -403,6 +403,12 @@ require('lazy').setup({
       end, { desc = '[S]earch [N]eovim files' })
     end,
   },
+  {
+    'nvim-telescope/telescope-symbols.nvim',
+    dependencies = {
+      { 'nvim-telescope/telescope.nvim' },
+    },
+  },
 
   { -- LSP Configuration & Plugins
     'neovim/nvim-lspconfig',
