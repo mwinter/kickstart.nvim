@@ -434,6 +434,7 @@ require('lazy').setup({
         },
       },
       { 'Bilal2453/luvit-meta', lazy = true },
+      { 'LhKipp/nvim-nu', opst = {} },
     },
     config = function()
       -- Brief aside: **What is LSP?**
@@ -601,7 +602,6 @@ require('lazy').setup({
         },
       }
 
-      require('lspconfig').nushell.setup {}
       -- Ensure the servers and tools above are installed
       --  To check the current status of installed tools and/or manually install
       --  other tools, you can run
@@ -631,6 +631,8 @@ require('lazy').setup({
           end,
         },
       }
+
+      require('lspconfig').nushell.setup {}
     end,
   },
 
