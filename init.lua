@@ -150,7 +150,7 @@ vim.o.splitbelow = true
 --   See `:help lua-options`
 --   and `:help lua-options-guide`
 vim.o.list = true
-vim.o.listchars = { tab = '» ', space = '·', trail = '·', nbsp = '␣', eol = '↓' }
+vim.opt.listchars = { tab = '» ', space = '·', trail = '·', nbsp = '␣', eol = '↓' }
 -- vim.o.binary = true
 vim.o.tabstop = 4
 vim.o.shiftwidth = 4
